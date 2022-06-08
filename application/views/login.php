@@ -41,10 +41,10 @@
 
             <div class="mb-3">
               <input type="email" class="form-control" id="Email"
-                placeholder="Email" name="email" required oninvalid=" return this.setCustomValidity('Email tidak boleh kosong, silakan isi...')">
+                placeholder="Email" name="email" required>
             </div>
             <div class="mb-3">
-              <input type="password" name="password" class="form-control" id="password" placeholder="password" required oninvalid="return this.setCustomValidity('Password tidak boleh kosong, silakan isi...')">
+              <input type="password" name="password" class="form-control" id="password" placeholder="password" required>
             </div>
             <div class="text-center"><button type="submit" class="btn btn-color px-5 w-100">Login</button></div>	
             </div>
