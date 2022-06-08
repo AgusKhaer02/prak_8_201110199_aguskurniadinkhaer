@@ -40,13 +40,13 @@
             </div>
 
             <div class="mb-3">
-              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
-                placeholder="Email" name="email" required>
+              <input type="email" class="form-control" id="Email"
+                placeholder="Email" name="email" required oninvalid=" return this.setCustomValidity('Email tidak boleh kosong, silakan isi...')">
             </div>
             <div class="mb-3">
-              <input type="password" name="password" class="form-control" id="password" placeholder="password" required>
+              <input type="password" name="password" class="form-control" id="password" placeholder="password" required oninvalid="return this.setCustomValidity('Password tidak boleh kosong, silakan isi...')">
             </div>
-            <div class="text-center"><button type="submit" class="btn btn-color px-5 w-100">Login</button></div>
+            <div class="text-center"><button type="submit" class="btn btn-color px-5 w-100">Login</button></div>	
             </div>
           </form>
         </div>
